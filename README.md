@@ -49,9 +49,15 @@ La navegació entre pantalles es gestiona amb JavaScript, i l’aplicació està
 7. Executar l’app en un emulador o dispositiu físic.
 
 ## Captures de pantalla
-![Pantalla principal](./assets/Inici.png)
-![Paleta generada](./assets/pantalla2.png)
-![Informació del color](./assets/pantalla3.png)
+![Pantalla principal](./assets/Inici.jpg)
+![Paleta generada](./assets/Paleta1.jpg)
+![Informació del color](./assets/Paleta2.jpg)
+![Informació del color](./assets/Paleta3.jpg)
+![Animació](./assets/Animacio.jpg)
+![Mode Nit](./assets/Animacio_negre.jpg)
+
+
+
 
 ## Llicència 
 Aquest projecte està publicat sota la llicència MIT.
