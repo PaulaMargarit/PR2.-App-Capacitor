@@ -49,12 +49,13 @@ La navegació entre pantalles es gestiona amb JavaScript, i l’aplicació està
 7. Executar l’app en un emulador o dispositiu físic.
 
 ## Captures de pantalla
-![Pantalla principal](./assets/Inici.jpg)
-![Paleta generada](./assets/Paleta1.jpg)
-![Informació del color](./assets/Paleta2.jpg)
-![Informació del color](./assets/Paleta3.jpg)
-![Animació](./assets/Animacio.jpg)
-![Mode Nit](./assets/Animacio_negre.jpg)
+<img src="./assets/Inici.jpg" width="300">
+<img src="./assets/Paleta1.jpg" width="300">
+<img src="./assets/Paleta2.jpg" width="300">
+<img src="./assets/Paleta3.jpg" width="300">
+<img src="./assets/Animacio.jpg" width="300">
+<img src="./assets/Animacio_negre.jpg" width="300">
+
 
 
 
