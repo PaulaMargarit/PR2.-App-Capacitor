@@ -47,6 +47,9 @@ La navegació entre pantalles es gestiona amb JavaScript, i l’aplicació està
    npx cap open android
    
 7. Executar l’app en un emulador o dispositiu físic.
-   
+
+## Captures de pantalla
+
+
 ## Llicència 
 Aquest projecte està publicat sota la llicència MIT.
