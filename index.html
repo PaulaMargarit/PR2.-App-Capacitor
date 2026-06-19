@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ca"  tema="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pomodoro-vite</title>
+    <link rel="stylesheet" type="text/css" href="/src/style.css" />
+    <script src="/p5.js"></script>
+    <script src="/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+  </head>
+  <body>
+    <!--Pantalla 1: Seleccionar foto-->
+    <div id="pantalla1">
+      <h1>Seleccionar foto</h1>
+      <!--Botó per obrir la galeria-->
+      <button id="botoFoto">Seleccionar</button>
+    </div>
+
+    <!--Pantalla2: Paleta extreta-->
+    <div id="pantalla2">
+      <div class="contenidorPantalla2">
+        <h1>Paleta de colors</h1>
+        <img id="fotoTriada">
+        <!--Contenidor on es generen els colors-->
+        <div id="paleta"></div>
+        <!--Informació dels colors-->
+        <div id="infoColor">
+          <p>Clica un color per veure més informació</p>
+        </div>
+        <!--Botons-->
+        <div id="botonsPantalla2">
+          <button id="botoTornar">Triar foto</button>
+          <button id="botoCanvas">Animació</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Pantalla 3: Animació -->
+    <div id="pantalla3">
+      <!--Contenidor on p5.js crearà el canvas-->
+      <div id="canvasContainer"></div>
+      <!--Botons de la pantalla 3-->
+      <div id="botonsPantalla3">
+        <button id="botoEnrere">Tornar</button>
+
+        <button id="botoConfig">⚙️</button>
+        <!--Panell de configuració-->
+        <div id="configPanel">
+          <!--Interruptor del mode nit-->
+          <label id="switch">
+            <input type="checkbox" id="toggleNit">
+            <span class="slider round"></span>
+          </label>
+          <span>Mode nit</span>
+        </div>
+      </div>
+
+    </div>
+    <!--Arxiu JavaScript principal del projecte-->
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
